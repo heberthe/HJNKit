@@ -8,12 +8,76 @@
 
 /* Begin PBXBuildFile section */
 		B6C3AB0B268D90270032F5C2 /* HJNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB09268D90270032F5C2 /* HJNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6C3AB2D268D931B0032F5C2 /* ffitarget_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB12268D931A0032F5C2 /* ffitarget_arm64.h */; };
+		B6C3AB2E268D931B0032F5C2 /* ffitarget.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB13268D931A0032F5C2 /* ffitarget.h */; };
+		B6C3AB2F268D931B0032F5C2 /* ffi_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB14268D931A0032F5C2 /* ffi_arm.h */; };
+		B6C3AB30268D931B0032F5C2 /* ffi_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB15268D931A0032F5C2 /* ffi_i386.h */; };
+		B6C3AB31268D931B0032F5C2 /* ffitarget_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB16268D931A0032F5C2 /* ffitarget_x86_64.h */; };
+		B6C3AB32268D931B0032F5C2 /* ffi_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB17268D931B0032F5C2 /* ffi_x86_64.h */; };
+		B6C3AB33268D931B0032F5C2 /* ffitarget_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB18268D931B0032F5C2 /* ffitarget_arm.h */; };
+		B6C3AB34268D931B0032F5C2 /* ffitarget_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB19268D931B0032F5C2 /* ffitarget_i386.h */; };
+		B6C3AB35268D931B0032F5C2 /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C3AB1A268D931B0032F5C2 /* libffi.a */; };
+		B6C3AB36268D931B0032F5C2 /* ffi.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB1B268D931B0032F5C2 /* ffi.h */; };
+		B6C3AB37268D931B0032F5C2 /* ffi_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB1C268D931B0032F5C2 /* ffi_arm64.h */; };
+		B6C3AB38268D931B0032F5C2 /* TTContext.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB1E268D931B0032F5C2 /* TTContext.h */; };
+		B6C3AB39268D931B0032F5C2 /* TTDFModels.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3AB1F268D931B0032F5C2 /* TTDFModels.m */; };
+		B6C3AB3A268D931B0032F5C2 /* TTDFEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB20268D931B0032F5C2 /* TTDFEntry.h */; };
+		B6C3AB3B268D931B0032F5C2 /* TTDFBlockHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB21268D931B0032F5C2 /* TTDFBlockHelper.h */; };
+		B6C3AB3C268D931B0032F5C2 /* TTDFUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB22268D931B0032F5C2 /* TTDFUtils.h */; };
+		B6C3AB3D268D931B0032F5C2 /* TTDFMethodCleaner.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB23268D931B0032F5C2 /* TTDFMethodCleaner.h */; };
+		B6C3AB3E268D931B0032F5C2 /* TTDFKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB24268D931B0032F5C2 /* TTDFKit.h */; };
+		B6C3AB3F268D931B0032F5C2 /* TTDFEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB25268D931B0032F5C2 /* TTDFEngine.h */; };
+		B6C3AB40268D931B0032F5C2 /* TTContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3AB26268D931B0032F5C2 /* TTContext.m */; };
+		B6C3AB41268D931B0032F5C2 /* TTDFBlockHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3AB27268D931B0032F5C2 /* TTDFBlockHelper.m */; };
+		B6C3AB42268D931B0032F5C2 /* TTDFEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3AB28268D931B0032F5C2 /* TTDFEntry.m */; };
+		B6C3AB43268D931B0032F5C2 /* TTDFModels.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB29268D931B0032F5C2 /* TTDFModels.h */; };
+		B6C3AB44268D931B0032F5C2 /* TTDFUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3AB2A268D931B0032F5C2 /* TTDFUtils.m */; };
+		B6C3AB45268D931B0032F5C2 /* TTDFEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3AB2B268D931B0032F5C2 /* TTDFEngine.m */; };
+		B6C3AB46268D931B0032F5C2 /* TTDFMethodCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3AB2C268D931B0032F5C2 /* TTDFMethodCleaner.m */; };
+		B6C3AB4D268D93390032F5C2 /* HJNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3AB47268D93380032F5C2 /* HJNUtils.m */; };
+		B6C3AB4E268D93390032F5C2 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3AB48268D93380032F5C2 /* Base64.m */; };
+		B6C3AB4F268D93390032F5C2 /* DESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3AB49268D93380032F5C2 /* DESUtils.m */; };
+		B6C3AB50268D93390032F5C2 /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB4A268D93380032F5C2 /* Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6C3AB51268D93390032F5C2 /* DESUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB4B268D93380032F5C2 /* DESUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6C3AB52268D93390032F5C2 /* HJNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C3AB4C268D93380032F5C2 /* HJNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B6C3AB06268D90270032F5C2 /* HJNKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HJNKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C3AB09268D90270032F5C2 /* HJNKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJNKit.h; sourceTree = "<group>"; };
 		B6C3AB0A268D90270032F5C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C3AB12268D931A0032F5C2 /* ffitarget_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
+		B6C3AB13268D931A0032F5C2 /* ffitarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
+		B6C3AB14268D931A0032F5C2 /* ffi_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm.h; sourceTree = "<group>"; };
+		B6C3AB15268D931A0032F5C2 /* ffi_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_i386.h; sourceTree = "<group>"; };
+		B6C3AB16268D931A0032F5C2 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
+		B6C3AB17268D931B0032F5C2 /* ffi_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_x86_64.h; sourceTree = "<group>"; };
+		B6C3AB18268D931B0032F5C2 /* ffitarget_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm.h; sourceTree = "<group>"; };
+		B6C3AB19268D931B0032F5C2 /* ffitarget_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_i386.h; sourceTree = "<group>"; };
+		B6C3AB1A268D931B0032F5C2 /* libffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libffi.a; sourceTree = "<group>"; };
+		B6C3AB1B268D931B0032F5C2 /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
+		B6C3AB1C268D931B0032F5C2 /* ffi_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm64.h; sourceTree = "<group>"; };
+		B6C3AB1E268D931B0032F5C2 /* TTContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTContext.h; sourceTree = "<group>"; };
+		B6C3AB1F268D931B0032F5C2 /* TTDFModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDFModels.m; sourceTree = "<group>"; };
+		B6C3AB20268D931B0032F5C2 /* TTDFEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDFEntry.h; sourceTree = "<group>"; };
+		B6C3AB21268D931B0032F5C2 /* TTDFBlockHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDFBlockHelper.h; sourceTree = "<group>"; };
+		B6C3AB22268D931B0032F5C2 /* TTDFUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDFUtils.h; sourceTree = "<group>"; };
+		B6C3AB23268D931B0032F5C2 /* TTDFMethodCleaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDFMethodCleaner.h; sourceTree = "<group>"; };
+		B6C3AB24268D931B0032F5C2 /* TTDFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDFKit.h; sourceTree = "<group>"; };
+		B6C3AB25268D931B0032F5C2 /* TTDFEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDFEngine.h; sourceTree = "<group>"; };
+		B6C3AB26268D931B0032F5C2 /* TTContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTContext.m; sourceTree = "<group>"; };
+		B6C3AB27268D931B0032F5C2 /* TTDFBlockHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDFBlockHelper.m; sourceTree = "<group>"; };
+		B6C3AB28268D931B0032F5C2 /* TTDFEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDFEntry.m; sourceTree = "<group>"; };
+		B6C3AB29268D931B0032F5C2 /* TTDFModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDFModels.h; sourceTree = "<group>"; };
+		B6C3AB2A268D931B0032F5C2 /* TTDFUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDFUtils.m; sourceTree = "<group>"; };
+		B6C3AB2B268D931B0032F5C2 /* TTDFEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDFEngine.m; sourceTree = "<group>"; };
+		B6C3AB2C268D931B0032F5C2 /* TTDFMethodCleaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDFMethodCleaner.m; sourceTree = "<group>"; };
+		B6C3AB47268D93380032F5C2 /* HJNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJNUtils.m; sourceTree = "<group>"; };
+		B6C3AB48268D93380032F5C2 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		B6C3AB49268D93380032F5C2 /* DESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESUtils.m; sourceTree = "<group>"; };
+		B6C3AB4A268D93380032F5C2 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		B6C3AB4B268D93380032F5C2 /* DESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESUtils.h; sourceTree = "<group>"; };
+		B6C3AB4C268D93380032F5C2 /* HJNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJNUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C3AB35268D931B0032F5C2 /* libffi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,10 +111,58 @@
 		B6C3AB08268D90270032F5C2 /* HJNKit */ = {
 			isa = PBXGroup;
 			children = (
+				B6C3AB4A268D93380032F5C2 /* Base64.h */,
+				B6C3AB48268D93380032F5C2 /* Base64.m */,
+				B6C3AB4B268D93380032F5C2 /* DESUtils.h */,
+				B6C3AB49268D93380032F5C2 /* DESUtils.m */,
+				B6C3AB4C268D93380032F5C2 /* HJNUtils.h */,
+				B6C3AB47268D93380032F5C2 /* HJNUtils.m */,
+				B6C3AB11268D931A0032F5C2 /* libffi */,
+				B6C3AB1D268D931B0032F5C2 /* TTDFKit */,
 				B6C3AB09268D90270032F5C2 /* HJNKit.h */,
 				B6C3AB0A268D90270032F5C2 /* Info.plist */,
 			);
 			path = HJNKit;
+			sourceTree = "<group>";
+		};
+		B6C3AB11268D931A0032F5C2 /* libffi */ = {
+			isa = PBXGroup;
+			children = (
+				B6C3AB12268D931A0032F5C2 /* ffitarget_arm64.h */,
+				B6C3AB13268D931A0032F5C2 /* ffitarget.h */,
+				B6C3AB14268D931A0032F5C2 /* ffi_arm.h */,
+				B6C3AB15268D931A0032F5C2 /* ffi_i386.h */,
+				B6C3AB16268D931A0032F5C2 /* ffitarget_x86_64.h */,
+				B6C3AB17268D931B0032F5C2 /* ffi_x86_64.h */,
+				B6C3AB18268D931B0032F5C2 /* ffitarget_arm.h */,
+				B6C3AB19268D931B0032F5C2 /* ffitarget_i386.h */,
+				B6C3AB1A268D931B0032F5C2 /* libffi.a */,
+				B6C3AB1B268D931B0032F5C2 /* ffi.h */,
+				B6C3AB1C268D931B0032F5C2 /* ffi_arm64.h */,
+			);
+			path = libffi;
+			sourceTree = "<group>";
+		};
+		B6C3AB1D268D931B0032F5C2 /* TTDFKit */ = {
+			isa = PBXGroup;
+			children = (
+				B6C3AB1E268D931B0032F5C2 /* TTContext.h */,
+				B6C3AB1F268D931B0032F5C2 /* TTDFModels.m */,
+				B6C3AB20268D931B0032F5C2 /* TTDFEntry.h */,
+				B6C3AB21268D931B0032F5C2 /* TTDFBlockHelper.h */,
+				B6C3AB22268D931B0032F5C2 /* TTDFUtils.h */,
+				B6C3AB23268D931B0032F5C2 /* TTDFMethodCleaner.h */,
+				B6C3AB24268D931B0032F5C2 /* TTDFKit.h */,
+				B6C3AB25268D931B0032F5C2 /* TTDFEngine.h */,
+				B6C3AB26268D931B0032F5C2 /* TTContext.m */,
+				B6C3AB27268D931B0032F5C2 /* TTDFBlockHelper.m */,
+				B6C3AB28268D931B0032F5C2 /* TTDFEntry.m */,
+				B6C3AB29268D931B0032F5C2 /* TTDFModels.h */,
+				B6C3AB2A268D931B0032F5C2 /* TTDFUtils.m */,
+				B6C3AB2B268D931B0032F5C2 /* TTDFEngine.m */,
+				B6C3AB2C268D931B0032F5C2 /* TTDFMethodCleaner.m */,
+			);
+			path = TTDFKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +172,28 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C3AB52268D93390032F5C2 /* HJNUtils.h in Headers */,
+				B6C3AB3B268D931B0032F5C2 /* TTDFBlockHelper.h in Headers */,
+				B6C3AB50268D93390032F5C2 /* Base64.h in Headers */,
+				B6C3AB51268D93390032F5C2 /* DESUtils.h in Headers */,
+				B6C3AB3A268D931B0032F5C2 /* TTDFEntry.h in Headers */,
+				B6C3AB3C268D931B0032F5C2 /* TTDFUtils.h in Headers */,
+				B6C3AB33268D931B0032F5C2 /* ffitarget_arm.h in Headers */,
+				B6C3AB3F268D931B0032F5C2 /* TTDFEngine.h in Headers */,
+				B6C3AB2D268D931B0032F5C2 /* ffitarget_arm64.h in Headers */,
+				B6C3AB36268D931B0032F5C2 /* ffi.h in Headers */,
+				B6C3AB43268D931B0032F5C2 /* TTDFModels.h in Headers */,
+				B6C3AB3D268D931B0032F5C2 /* TTDFMethodCleaner.h in Headers */,
+				B6C3AB3E268D931B0032F5C2 /* TTDFKit.h in Headers */,
+				B6C3AB34268D931B0032F5C2 /* ffitarget_i386.h in Headers */,
+				B6C3AB32268D931B0032F5C2 /* ffi_x86_64.h in Headers */,
+				B6C3AB30268D931B0032F5C2 /* ffi_i386.h in Headers */,
+				B6C3AB37268D931B0032F5C2 /* ffi_arm64.h in Headers */,
+				B6C3AB31268D931B0032F5C2 /* ffitarget_x86_64.h in Headers */,
+				B6C3AB2E268D931B0032F5C2 /* ffitarget.h in Headers */,
 				B6C3AB0B268D90270032F5C2 /* HJNKit.h in Headers */,
+				B6C3AB38268D931B0032F5C2 /* TTContext.h in Headers */,
+				B6C3AB2F268D931B0032F5C2 /* ffi_arm.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +264,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C3AB39268D931B0032F5C2 /* TTDFModels.m in Sources */,
+				B6C3AB46268D931B0032F5C2 /* TTDFMethodCleaner.m in Sources */,
+				B6C3AB4F268D93390032F5C2 /* DESUtils.m in Sources */,
+				B6C3AB40268D931B0032F5C2 /* TTContext.m in Sources */,
+				B6C3AB44268D931B0032F5C2 /* TTDFUtils.m in Sources */,
+				B6C3AB42268D931B0032F5C2 /* TTDFEntry.m in Sources */,
+				B6C3AB4D268D93390032F5C2 /* HJNUtils.m in Sources */,
+				B6C3AB41268D931B0032F5C2 /* TTDFBlockHelper.m in Sources */,
+				B6C3AB4E268D93390032F5C2 /* Base64.m in Sources */,
+				B6C3AB45268D931B0032F5C2 /* TTDFEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,14 +408,21 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HJNKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HJNKit/libffi",
+				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hjn.HJNKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -286,14 +437,21 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HJNKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HJNKit/libffi",
+				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hjn.HJNKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

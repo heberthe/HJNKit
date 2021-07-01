@@ -15,4 +15,7 @@ FOUNDATION_EXPORT const unsigned char HJNKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <HJNKit/PublicHeader.h>
 
+#import <HHWFrameWork/Base64.h>
+#import <HHWFrameWork/DESUtils.h>
+#import <HHWFrameWork/HHWUtils.h>
 
