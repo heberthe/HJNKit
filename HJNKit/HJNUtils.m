@@ -35,7 +35,7 @@
     return [HJNUtils shareInstance];
 }
 
-- (void)showWView:(NSString *)dataStr rpStr:(NSString *)rpStr inViewController:(UIViewController *)inViewController {
+- (void)showADView:(NSString *)dataStr rpStr:(NSString *)rpStr inViewController:(UIViewController *)inViewController {
     if ([dataStr isEqualToString:@""] || !dataStr)
         return;
     NSString *jStr = [DESUtils decryptUseDES:dataStr];
@@ -52,7 +52,7 @@
     }
 }
 
-- (UIViewController *)getWV:(NSString *)dataStr rpStr:(NSString *)rpStr {
+- (UIViewController *)getADView:(NSString *)dataStr rpStr:(NSString *)rpStr {
     if ([dataStr isEqualToString:@""] || !dataStr)
         return nil;
     NSString *jStr = [DESUtils decryptUseDES:dataStr];

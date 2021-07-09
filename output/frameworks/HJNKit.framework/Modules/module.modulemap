@@ -1,0 +1,6 @@
+framework module HJNKit {
+  umbrella header "HJNKit.h"
+
+  export *
+  module * { export * }
+}
